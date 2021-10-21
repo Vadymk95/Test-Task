@@ -1,0 +1,36 @@
+.users-page {
+  width: 100%;
+}
+
+.users-page__button-container {
+  width: 100%;
+  position: relative;
+  margin-bottom: 40px;
+  height: 60px;
+}
+
+.users-page__button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.users-page__button:hover {
+  background-color: rgba(00, 80, 80, 0.5);
+}
+
+.users-page__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.users-page__list-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.users-page__sort-block {
+  margin-bottom: 40px;
+}
+
+

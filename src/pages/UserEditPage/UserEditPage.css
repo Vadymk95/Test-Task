@@ -1,0 +1,34 @@
+.user-page__container {
+  width: 100%;
+}
+
+.user-page__row {
+  display: flex;
+}
+
+.user-page__col {
+  list-style-type: none;
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+.block {
+  display: block;
+}
+
+.user-page__input {
+  outline: none;
+  border: 3px solid teal;
+  padding: 10px 80px 10px 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.user-page__input:focus {
+  border: 3px solid darkcyan;
+  box-shadow: 1px 1px 1px 1px teal;
+}
+
+.user-page__input::placeholder {
+  color: lightcyan;
+}

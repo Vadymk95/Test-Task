@@ -1,0 +1,25 @@
+.card {
+  border: 3px solid teal;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: rgba(00, 80, 80, 0.5);
+}
+
+.card__user-params {
+  color: blanchedalmond;
+}
+
+.card__button--edit {
+  margin-right: 15px;
+}
+
+.card__button--edit:hover {
+  background-color: lightskyblue;
+}
+
+.card__button--remove:hover {
+  background-color: lightsalmon;
+}

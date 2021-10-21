@@ -1,0 +1,17 @@
+.label {
+  background-color: transparent;
+
+  color: teal !important;
+  outline: teal !important;
+}
+
+.select:active {
+  outline: teal;
+}
+.form-control {
+color: teal !important;
+}
+
+.option {
+  color: teal;
+}
